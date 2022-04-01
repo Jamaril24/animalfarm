@@ -1,17 +1,37 @@
 body{
-    background-color: #e6e6fa;
+    background-color: #A6865A8F;
 }
 header{
-    background-color: #D7FACD;
+    background-color: #478f74;
     border: solid 2px black;
-    height: 150%;
+    margin-top: 1%;
 }
 h1{
     text-align: center;
     font-size: xx-large;
     margin-top: 1%;
     margin-bottom: 1%;
+ }
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
 }
+
+#function{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+ul {
+    justify-self: center;
+}
+
+li{
+   text-align: center;
+   font-size: larger;
+}
+
 footer{
     background-color: #D7FACD;
     border: solid 2px black;

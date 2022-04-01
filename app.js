@@ -40,12 +40,11 @@ sheeps.appendChild(newSheep);
 
 // TODO: create an event listener for the `Make Horse` Button that calls a function named `handleMakingHorse`
 const horsebutton = document.getElementById('make-horse');
-horsebutton.addEventListener('click', handleMakinghorse);
+horsebutton.addEventListener('click', function(){
 
 // TODO: write a function called `handleMakingHorse that makes a new list item, assigns its text content to `Horse` or the name of a horse you know, and append it to the fourth unordered list.
-function handleMakinghorse(){
   const newHorse = document.createElement('li');
   newHorse.textContent = 'Horse';
-  const horse = document.getElementById('horses');
-  horsebutton.appendChild(newHorse);
-}
+  const horses = document.getElementById('horses');
+  horses.appendChild(newHorse);
+});
