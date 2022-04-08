@@ -1,0 +1,17 @@
+body{
+    background-color: #A6865A8F;
+}
+
+#desctription{
+    display: block;
+    height: 200px;
+}
+
+#descrptLabel{
+    display: block;
+}
+
+textarea{
+    display: block;
+    margin-top: 10px;
+}
