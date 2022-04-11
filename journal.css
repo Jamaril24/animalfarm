@@ -2,6 +2,11 @@ body{
     background-color: #A6865A8F;
 }
 
+header{
+    text-align: center;
+    font-size: xx-large;
+    
+}
 #desctription{
     display: block;
     height: 200px;
@@ -14,4 +19,9 @@ body{
 textarea{
     display: block;
     margin-top: 10px;
+}
+
+#first{
+    border: solid 1px black;
+
 }

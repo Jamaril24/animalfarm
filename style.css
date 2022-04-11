@@ -1,11 +1,13 @@
 body{
     background-color: #A6865A8F;
 }
+
 header{
     background-color: #478f74;
     border: solid 2px black;
     margin-top: 1%;
 }
+
 h1{
     text-align: center;
     font-size: xx-large;
@@ -13,17 +15,20 @@ h1{
     margin-bottom: 1%;
  }
 
-main{
+
+ main{
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
 }
 
+
 #function{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-}
+    border: 1px solid #478f74;
+}    
 
-ul {
+    ul {
     justify-self: center;
 }
 
